@@ -3,7 +3,6 @@
 #include<time.h>
 
 #pragma warning(disable:4996)
-#define size = 1000
 
 //김찬휘 문제 1
 
