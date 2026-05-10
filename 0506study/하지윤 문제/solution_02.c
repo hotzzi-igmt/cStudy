@@ -81,30 +81,3 @@ int countValid(int* arr, int n)
 	}
 	return count;
 }
-
-int main(void)
-{
-	int n;
-	int arr[100];
-
-
-	scanf("%d", &n);
-	for (int i = 0; i < n;i++) {
-		scanf("%d", &arr[i]);
-	}
-	int max = arr[0];
-	int	min = arr[0];
-
-	for (int i = 0; i < n;i++) {
-		int sum = 0;
-
-
-		if (arr[i] > max)
-			max = arr[i];
-		if (arr[i] < min)
-			min = arr[i];
-	}
-	printf("%d %d\n", max, min);
-
-	return 0;
-}
